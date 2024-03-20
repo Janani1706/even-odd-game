@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>odd or even game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bar">
+      <h1>(:!!EVEN OR ODD!!:)</h1>
+
+      <div id="name">
+        <h3 style="color: red">player1</h3>
+        <h3 style="color: red">player2</h3>
+      </div>
+      <div id="main">
+        <div class="play1" id="player">
+          <div id="circle1"></div>
+          <div id="circle1"></div>
+          <div id="circle1"></div>
+          <div id="circle1"></div>
+          <div id="circle1"></div>
+        </div>
+
+        <div class="center">
+          <h2 id="p1s">0</h2>
+          <h2>-</h2>
+          <h2 id="p2s">0</h2>
+        </div>
+        <div class="play2" id="players">
+          <div id="circle2"></div>
+          <div id="circle2"></div>
+          <div id="circle2"></div>
+          <div id="circle2"></div>
+          <div id="circle2"></div>
+        </div>
+      </div>
+      <h1 id="res">Wait for result!!!</h1>
+      <div id="btn">
+        <input type="submit" value="Check" onclick="playGame()" />
+        <input type="submit" value="Reset" onclick="window.location.reload()" />
+      </div>
+    </div>
+    <script src="design.js"></script>
+  </body>
+</html>
